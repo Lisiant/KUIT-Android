@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/webtoonFragment"
+        android:icon="@drawable/selector_webtoon_icon"
+        android:title="웹툰"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item
+        android:id="@+id/recommendFinishFragment"
+        android:icon="@drawable/selector_recommend_finish_icon"
+        android:title="추천완결"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bestChallengeFragment"
+        android:icon="@drawable/selector_best_challenge_icon"
+        android:title="베스트도전"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/myFragment"
+        android:icon="@drawable/selector_my_icon"
+        android:title="MY"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/moreFragment"
+        android:icon="@drawable/selector_more_icon"
+        android:title="더보기"
+        app:showAsAction="always" />
+
+
+</menu>
