@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">NaverWebtoon</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="naver_copyright_description">웹툰에서 제공되는 콘텐츠의 저작권은 저자 또는 제공처에 있으며 이를 무단 이용하는 경우 저작권법 등에 따라 법적책임을 질 수 있습니다.</string>
+    <string name="naverwebtoon_businessman_info">네이버웹툰(유) 사업자 정보</string>
 </resources>
