@@ -18,4 +18,5 @@ class WebtoonFragment : Fragment() {
         binding = FragmentWebtoonBinding.inflate(inflater, container, false)
         return binding.root
     }
+
 }

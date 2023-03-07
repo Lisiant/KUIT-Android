@@ -156,32 +156,21 @@
 
             </LinearLayout>
 
-            <FrameLayout
-                android:id="@+id/webtoon_list_fl"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/webtoon_list_cl"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/webtoon_category_ll">
 
-            </FrameLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/webtoon_list_fl">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/webtoon_new_recommended_finish_cl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:layout_constraintBottom_toBottomOf="@id/webtoon_view2"
-                    app:layout_constraintTop_toTopOf="parent">
-
-
-
-
-                </androidx.constraintlayout.widget.ConstraintLayout>
+                app:layout_constraintTop_toBottomOf="@id/webtoon_list_cl">
 
 
                 <View
@@ -190,7 +179,7 @@
                     android:layout_height="10dp"
                     android:background="#ededed"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/webtoon_new_recommended_finish_cl" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/webtoon_random_banner_iv"
